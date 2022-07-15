@@ -25,6 +25,11 @@
   - name: Show all network_devices
     ansible.builtin.debug:
       msg: "{{ network_devices_result }}"
+      
+   - name: Show all network_devices
+    ansible.builtin.debug:
+      msg: "{{ network_devices_result }}"
+
 
   - name: Get Network Device by id 1
     cisco.dnac.network_device_info:
