@@ -1,0 +1,21 @@
+---
+ network: "devices"
+ infrastructure: "services"
+ ip: 192.168.0.1
+ configure: true
+ devices: 3
+ switches:
+   - C9300
+   - C9200
+   - C3960X
+   - N9300
+ DNAC:
+   connections: five
+   version: 2.2.3.2
+   admins: | 
+     "John Doe"
+     "Mike Andrews"
+   # API Documentation available on box
+   API_enabled: true
+
+

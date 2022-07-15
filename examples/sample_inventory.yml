@@ -1,0 +1,21 @@
+
+---
+switches:
+  hosts:
+    switch1:
+      ansible_host: 10.16.10.11
+    switch2:
+      ansible_host: 10.16.10.12
+
+routers:
+  hosts:
+    router1:
+      ansible_host: 10.16.10.13
+    router2:
+      ansible_host: 10.16.10.14
+
+network:
+  children:
+    switches:
+    routers:
+

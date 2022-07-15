@@ -1,0 +1,22 @@
+
+
+diff --git a/examples/example.yml b/examples/example.yml
+
+index 6743b4c..9ed3bd4 100644
+
+--- a/examples/example.yml
++++ b/examples/example.yml
+
+@@ -12,8 +12,8 @@
+    - C3960X
+    - N9300
+  DNAC:
+-   connections: three
+-   version: 2.2.1.2
++   connections: five
++   version: 2.2.3.2
+    admins: |
+      "John Doe"
+      "Mike Andrews"
+
+
